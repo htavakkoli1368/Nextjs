@@ -3,7 +3,7 @@ import AddToCard from './AddToCard'
 
 const ProductCard = () => {
   return (
-    <div>
+    <div className="p-3 text-white bg-amber-500 hover:bg-red-900">
         <AddToCard />
     </div>
   )
